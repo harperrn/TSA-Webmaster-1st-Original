@@ -39,7 +39,7 @@ of those sections to manage the look and feel of the site. */
     padding: 250px 0;
     text-align: center;
     color: #fff;
-    background: url(img/denver.jpg) no-repeat top center scroll;
+    background: url(../IMG/denver.jpg) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
