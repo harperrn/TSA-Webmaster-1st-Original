@@ -73,6 +73,7 @@ html {
 .build-section {
     height: auto;
     padding-top: 75px;
+    padding-bottom: 30px;
     text-align: center;
     background: #fff;
 }
