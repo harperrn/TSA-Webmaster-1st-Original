@@ -5655,7 +5655,7 @@ a.list-group-item-danger.active:focus {
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
-  position: absolute;
+  position: center;
   top: 0;
   bottom: 0;
   left: 0;
