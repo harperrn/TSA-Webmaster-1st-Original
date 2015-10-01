@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Titillium Web","Railways","Podkova",Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -75,14 +75,6 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-.header h1 {
-    color: #fff;
-    font-family: "Raleway" sans-serif;
-}
-.header h3 {
-    color: #fff;
-    font-family: "Raleway" sans-serif;
 }
 
 /* Call to Action */

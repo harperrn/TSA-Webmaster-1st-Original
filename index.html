@@ -13,9 +13,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/header.css" rel="stylesheet">
+    
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -28,23 +28,105 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- Page Fade
 <script>
     $.get('index.html', {}, function(res){
     $('#content-container').fadeOut().html(res).fadeIn();
 });
 </script>
+-->
+    
+    
 </head>
 
 <body>
+    <style>
+        html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Titillium Web","Railways","Podkova",Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #34495E;
+    border-color: #34495E;
+    text-transform: uppercase;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #26A65B;
+    background-color: #34495E;
+    border-color: #26A65B;
+
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #;
+    background-color: #fff;
+    border-color: #62A65B;
+}
+
+/* Header */
+        
+.header h1, h2, h3, h4 {
+    font-family: 'Titillium Web' sans-serif;
+    color: #fff;
+}
+        
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+    </style>
 
     <!-- Splash Page -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Legend High School Webmaster</h1>
-            <h3>About our Chapter and all about Unmanned Aerial Systems.</h3>
-            <br>
-            <a href="main.html" class="btn btn-light btn-lg">See More</a>
-        </div>
+            <h1 class="animated bounceInRight">Unmanned Aerial Systems</h1>
+            <h2 class="animated bounceInRight">Legend High School</h2> <br>
+            <h3 class="animated bounceInRight">About our TSA chapter, and all about Unmanned Aerial Systems.</h3>
+            <br> <br>
+            <a href="main.html" class="animated bounceInLeft btn btn-dark btn-lg">See More</a>
+        </div> 
     </header>
 
    
@@ -54,38 +136,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
 
 </body>
 
