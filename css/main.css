@@ -60,11 +60,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background: url(./img/facet2.png)
 }
 
 .bg-darkest-gray {
-    background: url(.img/bg2.png);
+    background: url(./img/facet.png);
 }
 
 .btn-primary {
@@ -151,8 +151,8 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
-    color: #26a65b;
+    font-size: 60px;
+    color: #FFF;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
 }
@@ -170,17 +170,17 @@ section h3.section-subheading {
 section h2.section-heading-light {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
-    color: #26a65b;
+    font-size: 60px;
+    color: #FFF;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
 }
 section h3.section-subheading-light {
     margin-bottom: 75px;
     text-transform: none;
-    color: #2574a9;
+    color: #FFF;
     font-family: 'Raleway','Podkova',Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 21px;
     font-style: bold;
     font-weight: 400;
 }
