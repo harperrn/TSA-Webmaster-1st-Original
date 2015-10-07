@@ -60,11 +60,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background: url(./img/facet2.png)
+    background-color: none;
 }
 
 .bg-darkest-gray {
-    background: url(./img/facet.png);
+    background-color: none;
 }
 
 .btn-primary {
@@ -147,6 +147,11 @@ fieldset[disabled] .btn-primary.active {
 section {
     padding: 100px 0;
 }
+
+.bg-facet1 {
+    background-image: url("./img/facet.png")
+}
+
 
 section h2.section-heading {
     margin-top: 0;
