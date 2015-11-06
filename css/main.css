@@ -59,8 +59,8 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light {
-    background-color: #f4f4f8;
+.bg-dark {
+    background-color: #373F51;
 }
 
 .bg-light-gray {
@@ -157,7 +157,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 60px;
-    color: #373F51;
+    color: #fff;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
 }
@@ -167,7 +167,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: 'Raleway','Podkova',Helvetica,Arial,sans-serif;
     font-size: 16px;
-    color: #373F51;
+    color: #fff;
     font-style: oblique;
     font-weight: 400;
 }
