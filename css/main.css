@@ -59,12 +59,12 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background: url(../img/bg.png);
+.bg-light {
+    background-color: #f4f4f8;
 }
 
-.bg-darkest-gray {
-    background: url(../img/bg.png)
+.bg-light-gray {
+    background-color: #e6e6ea;
 }
 
 .btn-primary {
