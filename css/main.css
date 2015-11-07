@@ -60,7 +60,7 @@ h6 {
 }
 
 .bg-dark {
-    background-color: #373F51;
+    background-color: #1B1B1E;
 }
 
 .bg-light-gray {
@@ -157,7 +157,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 60px;
-    color: #fff;
+    color: #fe4a49;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
 }
@@ -167,7 +167,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: 'Raleway','Podkova',Helvetica,Arial,sans-serif;
     font-size: 16px;
-    color: #fff;
+    color: #fed766;
     font-style: oblique;
     font-weight: 400;
 }
@@ -211,7 +211,7 @@ section h3.section-subheading-light {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 512px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -219,7 +219,6 @@ section h3.section-subheading-light {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(38,166,91, 0.8);
     -webkit-transition: ease-in-out .5s;
     -moz-transition: ease-in-out .5s;
     transition: ease-in-out .5s;
@@ -236,6 +235,7 @@ section h3.section-subheading-light {
     height: 20px;
     margin-top: -12px;
     text-align: center;
+    position: center;
     font-size: 20px;
     color: #fff;
 }
@@ -251,10 +251,10 @@ section h3.section-subheading-light {
 
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
+    padding: 50px;
+    max-width: 512px;
     text-align: center;
-    background-color: #FFF;
+    color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -275,7 +275,7 @@ section h3.section-subheading-light {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 0 0 40px;
     }
 }
  /*     Chapter Modals */
@@ -331,7 +331,7 @@ section h3.section-subheading-light {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #BDC3C7;
+    background-color: #e6e6ea;
 }
 
 #portfolio-chapter .portfolio-item .portfolio-caption h4 {
