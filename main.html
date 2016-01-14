@@ -1,3 +1,9 @@
+<!--Main.html - Written by: Ryan Harper, John Korhel, and John Ripple - TSA Team #  Legend HS Webmaster -->
+
+<!-- Color Scheme: scheme.png or https://coolors.co/app/dcdcdd-c5c3c6-46494c-4c5c68-1985a1 -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,8 +12,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Legend HS Team #  Webmaster Competition">
+    <meta name="author" content="Ryan Harper, John Korhel, John Ripple">
 
     <title>Legend HS Webmaster - Main</title>
 
@@ -16,13 +22,15 @@
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
-    
+
     <!-- Animate CSS -->
-    
+
     <link href="css/animate.css" rel="stylesheet">
+    
+    <!-- Font Awesome Glyphs -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700|Titillium+Web:400,600|Podkova' rel='stylesheet' type='text/css'>
 
@@ -33,162 +41,157 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>
-    $.get('main.html', {}, function(res){
-    $('#content-container').fadeOut().html(res).fadeIn();
-});
-</script>
+        $.get('main.html', {}, function (res) {
+            $('#content-container').fadeOut().html(res).fadeIn();
+        });
+    </script>
 
 </head>
 
 <body id="page-top" class="index">
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-darkest-gray">
+
+    <!-- info Grid Section -->
+    <section id="info" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center animated fadeIn">
-                    <h2 class="section-heading-light">Design Brief</h2>
-                    <h3 class="section-subheading-light text-muted">All about drones!</h3>
+                    <h2 class="section-heading-dark">Design Brief<hr class="hr-title">Unmanned Aerial Systems</h2>
+                    <h3 class="section-subheading-dark text-muted">Unmanned aerial systems or 'drones' are being used more in the current era than ever before. This is partially due to their accessability to the general population. Nowdays, normal people can go out to stores like Walmart and pick up one of these crafts. Professional grade drones could be used for shooting movies, monitoring crops, or any other application without the budget or physical space to house a full-sized manned aircraft such as a helicopter.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInLeft">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 info-item animated bounceInLeft">
+                    <a href="#infoModal1" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img src="./img/Hobby.jpg" class="img-responsive" alt="">
+                        <img src="./img/Hobby.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Types of drones</h4>
-                        <p class="text-muted">See the different drone types!</p>
+                    <div class="info-caption">
+                        <h4>Types of Drones</h4>
+                        <hr class="hr-modal">
+                        <p class="text-muted">Types of UASs and what they are commonly used for.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInDown">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 info-item animated bounceInDown">
+                    <a href="#infoModal2" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img src="./img/History.jpg" class="img-responsive" alt="">
+                        <img src="./img/History.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>History of drones</h4>
-                        <p class="text-muted">Explore the rich history of drones.</p>
+                    <div class="info-caption">
+                        <h4>History of Drones</h4>
+                        <hr class="hr-modal">
+                        <p class="text-muted">Explore the rich history of these unmanned aerial devices.</p>
+
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInRight">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 info-item animated bounceInRight">
+                    <a href="#infoModal3" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
                         <img src="./img/Build.jpg" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Build your own!</h4>
-                        <p class="text-muted">Assemble your own rig!</p>
+                    <div class="info-caption">
+                        <h4>Build Your Own!</h4>
+                        <hr class="hr-modal">
+                        <p class="text-muted">Assemble your own rig from common breadboard components!</p>
+
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInLeft">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-12 col-sm-12 info-item animated bounceInLeft">
+                    <a href="#infoModal4" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
                         <img src="./img/Interview.jpg" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Interviews with the pros.</h4>
-                        <p class="text-muted">See what professionals say.</p>
+                    <div class="info-caption">
+                        <h4>Professional Interview</h4>
+                        <hr class="hr-modal">
+                        <p class="text-muted">See what professionals say about some of this equipment...</p>
+
                     </div>
                 </div>
                 <!--
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInUp">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 info-item animated bounceInUp">
+                    <a href="#infoModal5" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img src="./img/portfolio/quad.jpg" class="img-responsive" alt="">
+                        <img src="./img/info/quad.jpg" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="info-caption">
                         <h4>Escape</h4>
                         <p class="text-muted">Website Design</p>
                     </div>
                 </div>
             </div> -->
-        </div>
+            </div>
     </section>
-    
+
     <!--Chapter Section -->
-    
-    <section id="portfolio-chapter" class="bg-light-gray">
+
+    <section id="info-chapter" class="bg-lightgrey">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center animated fadeIn">
-                    <h2 class="section-heading">Legend High School TSA Chapter</h2>
-                    <h3 class="section-subheading text-muted">add some text here...</h3>
+                    <h2 class="section-heading-dark">About our Chapter<hr class="hr-title"> Legend High School TSA</h2>
+                    <h3 class="section-subheading-dark text-muted">Legend's TSA chapter and our school's technology and engineering courses</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInLeft">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-6 col-sm-6 info-item animated bounceInLeft">
+                    <a href="#infoModal7" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/info/roundicons.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Our courses.</h4>
-                        <p class="text-muted">Different courses offered at LHS.</p>
+                    <div class="info-caption">
+                        <h4>Our Courses</h4>
+                        <hr class="hr-modal">
+                        <p class="text-muted">Courses here at Legend</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInDown">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-6 col-sm-6 info-item animated bounceInDown">
+                    <a href="#infoModal8" class="info-link" data-toggle="modal">
+                        <div class="info-hover">
+                            <div class="info-hover-content">
                                 <i class="fa fa-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/info/startup-framework.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item animated bounceInRight">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-2x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                    <div class="info-caption">
+                        <h4>Our Team</h4>
+                        <hr class="hr-modal">
+                        <p class="text-muted">Our TSA family</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+    <!-- info Modals -->
+    <!-- Use the modals below to showcase details about your info projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- info Modal 1 -->
+    <div class="info-modal modal fade" id="infoModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -197,197 +200,292 @@
                 </div>
             </div>
             <section id="types" class="types-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-head">Main Types of Drones or UASs</h1>
-                    <hr class="primary">
-                           <div class="container">
-            <div class="row">
-                <!--Personal Hobby-->
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Personal Hobby Drones</h3>
-                        <p class="text-muted">There are many types of personal drones that vary from a cheap practice flight drone, to pro flight machines that cost upwards of $1,200. The special thing about hobby drones, are that they are the easiest to fly. Some of the models even fly themselves by integrating a flight GPS into the control system.  </p>
-                        <a class="btn btn-warning btn-md" type="button" href="http://www.amazon.com/SYMA-Channel-2-4GHz-Explorers-Copter/dp/B00MNG37C2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1442014770&sr=1-1&keywords=syma" target="_blank">Syma X5C</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="section-head">Main types and their uses</h1>
+                            <hr class="primary">
+                            <div class="container">
+                                <div class="row">
+                                    <!--Personal Hobby-->
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>Personal Hobby Drones</h3>
+                                            <p class="text-muted">There are many types of personal drones that vary from a cheap practice flight drone, to pro flight machines that cost upwards of $1,200. The special thing about hobby drones, are that they are the easiest to fly. Some of the models even fly themselves by integrating a flight GPS into the control system. </p>
+                                            <a class="btn btn-primary btn-md" type="button" href="http://www.amazon.com/SYMA-Channel-2-4GHz-Explorers-Copter/dp/B00MNG37C2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1442014770&sr=1-1&keywords=syma" target="_blank">Syma X5C</a>
+                                        </div>
+                                    </div>
+                                    <!--Cinematography-->
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>Professional Cinematography Systems</h3>
+                                            <p class="text-muted">The main differences between a cinematography drone and a hobby drone, are the price, and the camera that is attaced to the body of them. You can mount a <a href="http://shop.gopro.com/">GoPro</a> or a camera is included like the <a href="http://www.dji.com/products/phantom-3-series" target="_blank">DJI Phantom</a>. These type of UASs can also be custom built from frames and motors. These are usually what are used for professional productions.</p>
+                                            <a class="btn btn-primary btn-md" type="button" href="http://www.cnn.com/videos/entertainment/2015/01/23/drones-hollywood-filming-orig.cnn" target="_blank">Drones in Cinema</a>
+                                        </div>
+                                    </div>
+                                    <!--Personal Privacy-->
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>Privacy Drones</h3>
+                                            <p class="text-muted">These are the ultimate drones for personal or comercial privacy. They carry nets that can desdtroy or crash a spying drone in the air by clogging or jamming the propellers.</p>
+                                            <br>
+                                            <img src="./IMG/intercept.jpg" width="250px" />
+                                        </div>
+                                    </div>
+                                    <!--Search and Rescue-->
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>Missing Person Search and Rescue</h3>
+                                            <p class="text-muted">Search and rescue drones are special because they have at least one type of thermal imaging device. They are usually controlled by the pilot via First Person View (FPV). They use their thermal sensors to track people, and find thermal signatures. They can also geotag the locations of the data that is collected. </p>
+                                            <br>
+                                            <img src="./IMG/thermal.jpg" width="250px" />
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <!--3D Mapping-->
+                                    <div class="col-lg-4 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>3D Land Plot Scanning</h3>
+                                            <p class="text-muted">3D mapping drones are special because they have laser beams that can scan the surface that they are flying over, and send it to the pilot to be saved on a storage medium. These types of air systems also fly very steady so that there are less or no imperfections in the scan. </p>
+                                            <a class="btn btn-primary btn-md" type="button" href="http://diydrones.com/profiles/blogs/using-drones-for-archeological-scanning" target="_blank">Architectural Scanning</a>
+
+                                        </div>
+                                    </div>
+                                    <!--Agricultural Monitoring-->
+                                    <div class="col-lg-4 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>Agricultural Monitoring</h3>
+                                            <p class="text-muted">Checking on crops by use of a drone has become very popular recently. Farmers or inspectors are able to see their crops from the air, and determine if they need to be harvested or watered. They are also able to make sure that all of the irrigation systems are working properly, or farm hands are doing what they are supposed to.</p>
+                                            <br>
+                                            <a class="btn btn-primary btn-md" type="button" href="http://diydrones.com/profiles/blogs/using-drones-for-archeological-scanning" target="_blank">Agricultural Monitoring</a>
+                                        </div>
+                                    </div>
+                                    <!--Crowd Control-->
+                                    <div class="col-lg-4 col-md-6 text-center">
+                                        <div class="service-box">
+                                            <h3>Crowd Control / Police</h3>
+                                            <p class="text-muted">Police/crowd control drones can be flown by the pilot from a safe distance away from the targeted subject. Police drones are fast, and can contain a tazer, and can close in on the subject from a safe distance. Crowd control air systems are usually endurance oriented, and can fly for long periods of time. </p>
+                                            <br>
+                                            <img src="./IMG/police-drone.jpg" width="250px" />
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <br>
+                                <hr>
+                                <br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <!--Cinematography-->
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Professional Cinematography Systems</h3>
-                        <p class="text-muted">The main differences between a cinematography drone and a hobby drone, are the price, and the camera that is attaced to the body of them. You can mount a <a href="http://shop.gopro.com/">GoPro</a> or a camera is included like the <a href="http://www.dji.com/products/phantom-3-series">DJI Phantom</a>. These type of UASs can also be custom built from frames and motors. These are usually what are used for professional productions.</p>
-                        <a class="btn btn-warning btn-md" type="button" href="http://www.cnn.com/videos/entertainment/2015/01/23/drones-hollywood-filming-orig.cnn" target="_blank">Drones in Cinema</a>
-                    </div>
-                </div>
-                <!--Personal Privacy-->
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Privacy Drones</h3>
-                        <p class="text-muted">These are the ultimate drones for personal or comercial privacy. They carry nets that can desdtroy or crash a spying drone in the air by clogging or jamming the propellers.</p> <br>
-                        <img src="./IMG/intercept.jpg" width="250px"/>
-                    </div>
-                </div>
-                <!--Search and Rescue-->
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Missing Person Search and Rescue</h3>
-                        <p class="text-muted">Search and rescue drones are special because they have at least one type of thermal imaging device. They are usually controlled by the pilot via First Person View (FPV). They use their thermal sensors to track people, and find thermal signatures. They can also geotag the locations of the data that is collected. </p> <br>
-                        <img src="./IMG/thermal.jpg" width="250px"/> 
-                        
-                    </div>
-                </div> <br> <br> <br> <br>
-                <!--3D Mapping-->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>3D Land Plot Scanning</h3>
-                        <p class="text-muted">3D mapping drones are special because they have laser beams that can scan the surface that they are flying over, and send it to the pilot to be saved on a storage medium. These types of air systems also fly very steady so that there are less or no imperfections in the scan. </p>
-                        <a class="btn btn-warning btn-md" type="button" href="http://diydrones.com/profiles/blogs/using-drones-for-archeological-scanning" target="_blank">Architectural Scanning</a>
-                        
-                    </div>
-                </div>
-                <!--Agricultural Monitoring-->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Agricultural Monitoring</h3>
-                        <p class="text-muted">Checking on crops by use of a drone has become very popular recently. Farmers or inspectors are able to see their crops from the air, and determine if they need to be harvested or watered. They are also able to make sure that all of the irrigation systems are working properly, or farm hands are doing what they are supposed to.</p> <br>
-                        <a class="btn btn-warning btn-md" type="button" href="http://diydrones.com/profiles/blogs/using-drones-for-archeological-scanning" target="_blank">Agricultural Monitoring</a>
-                    </div>
-                </div>
-                <!--Crowd Control-->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Crowd Control / Police</h3>
-                        <p class="text-muted">Police/crowd control drones can be flown by the pilot from a safe distance away from the targeted subject. Police drones are fast, and can contain a tazer, and can close in on the subject from a safe distance. Crowd control air systems are usually endurance oriented, and can fly for long periods of time.  </p> <br> 
-                        <img src="./IMG/police-drone.jpg" width="250px"/> 
-                    </div>
-                </div>
-            </div>
-                </div>
+            </section>
+
             </div>
         </div>
-    </section>
 
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- info Modal 2 -->
+        <div class="info-modal modal fade" id="infoModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
+                <section id="history" class="history-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1>History of Unmanned Aerial Systems</h1>
+                                <br>
+                                <br>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div class="page-header">
+                        </div>
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-badge"><i class="glyphicon glyphicon-flash"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Civil war</h4>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1860's</small></p>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>During the civil war, balloons were filled with explosives to be sent to the other side. First unmanned aircraft assigned to a task..</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge warning"><i class="glyphicon glyphicon-wrench"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Operation Aphrodite</h4>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1944</small></p>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Operation Aphrodite is started and is planning to use unmanned bomber fighter jets to detonate a target. Pilots would fly the planes to the assigned altitude, then bail with parachutes and allow the plane to crash into the target..</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge danger"><i class="glyphicon glyphicon-leaf"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Vietnam</h4>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1960-1970</small></p>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Vietnam uses many Firebee drones to take night photos and make supply drops.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge info"><i class="glyphicon glyphicon-flag"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">US Navy UAV</h4>
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1985</small></p>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>US. Navy launches the first US. military UAV, the Pioneer.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge info"><i class="glyphicon glyphicon-plane"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Predator Drone</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2002</small></p>
+                                        <p>The first Predator drone is used in Afghanistan to survey and make a kill. First unmanned kill made by the U.S. CIA.</p>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge success"><i class="glyphicon glyphicon-globe"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Non military drones</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2013</small></p>
+                                        <p>Sales of non-military drones are estimated to reach sales of about $8.2 Billion in the next ten years. People start to catch onto the many uses of these unmanned aircraft. The Quadcopter is the most popular of them all because of its ability to be precisely maneuvered.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <br>
+                        <hr>
+                        <br>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </section>
+
             </div>
-             <section id="history" class="history-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>History of Unmanned Aerial Systems</h1> <br> <br>
+        </div>
+
+        <!-- info Modal 3 -->
+        <div class="info-modal modal fade" id="infoModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
                 </div>
-                    
-                </div>
-                    
+                <section id="build" class="build-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1>Build Your Own Quadcopter: Guide</h1>
+                                <h3 class="build-info">Building your own quadcopter can be a great option if  you don't know what you want to do with it. You can always upgrade it in the future if you find another project that you want to try out. </h3>
+                                <br>
+                                <p class="text-muted">
+                                    <br>
+                                    <h4 class="build-info">Materials:</h4>
+                                    <br> - Body: The body of the drone can be anything you want. It just needs to be lightweight and sturdy. Your frame needs to be able to mount either four or six motors, and their ESCs. Saying that, the frame needs to weigh the same on all sides. The one that we will be using and reccomending is the <a href="http://www.amazon.com/Hobbyking-X650F-Glass-Fiber-Quadcopter/dp/B00USR0AGO/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1442096059&sr=1-2&keywords=quadcopter+frame" target="_blank">Hobbyking X650F</a> because it has foldable arms, and a hightened landing gear that allows it to have a camera mounted under it.
+                                    <br>
+                                    <br>
+                                    <br> - ESC: The Electronic Speed Controller is an integrated circuit that allows each of the motors to be controlled indevidually by the flight controller. There needs to be one ESC for each motor that you have on your quadcopter, and they are all connected to the power distribution board. They can also be homemade. We will be unsing the <a href="http://www.amazon.com/Gartt-Brushless-Outrunner-Quadcopter-SKYWALKER/dp/B00JFR4YEC/ref=sr_1_9?ie=UTF8&qid=1442097459&sr=8-9&keywords=quadcopter+motors" target="_blank">Gartt 2212</a> because it comes with motors, and has simon-k firmware.
+                                    <br>
+                                    <br>
+                                    <br> - Motors and Propellers: The motors and propellers work in tandem from the power of the ESC to lift the quad off of the ground. The motors that we will be using are the <a href="http://www.amazon.com/Gartt-Brushless-Outrunner-Quadcopter-SKYWALKER/dp/B00JFR4YEC/ref=sr_1_9?ie=UTF8&qid=1442097459&sr=8-9&keywords=quadcopter+motors" target="_blank">Gart 2212</a> because it comes with the ESCs, and they have more than enough power to fly with a camera attached to the frame. The propellers that we will be using are the <a href="http://www.amazon.com/Hooshion%C2%AE-Carbon-Propeller-Multirotor-Quadcopter/dp/B00ZQHZ5U2/ref=sr_1_10?ie=UTF8&qid=1442098409&sr=8-10&keywords=quadcopter+propellers+6+in" target="_blank">Hooshion Carbon Fiber 5in</a> propellers that come in a four pack. They also have a five-inch blade length that produce more air-power.
+                                    <br>
+                                    <br>
+                                    <br> - Flight controllers, PDBs, and gps/ radio controller boards: The flight controller is the middleman between the radio controller board and the ESCs. It controls the ESCs to control the motors. They can also control a camera or a gimbal, and the other outputs can be programmed to do whatever you want. The flight controller that we will be using is the <a href="http://www.amazon.com/Andoer-Flight-Controller-Multicopter-Quadcopter/dp/B00Q496EOM/ref=sr_1_8?ie=UTF8&qid=1442098903&sr=8-8&keywords=quadcopter+flight+controller" target="_blank">Andoer APM 2.6</a> because it is flashable, and it is compatible with a GPS unit.
+                                    <br>
+                                    <br>
+                                    <br> Next up is the PDB or Power Distribution Board. This is a simple little peice of electronics that takes the power from the battery(ies) and distributes it to the flight controller and ESCs. The PDB that we will be using is the <a href="http://www.amazon.com/Quadcopter-Power-Distribution-Board-Mutlicopter/dp/B00QGCILK2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1442099164&sr=1-1&keywords=quadcopter+power+distribution+board" target="_blank">QPDB XT60</a> because it has simple and reliable circuits and pre-soldered bullet plugs. We will also need some bullet plugs to go on the ESCs with this. We wil just use these: <a href="http://www.amazon.com/Plated-Female-Bullet-Connector-Battery/dp/B00T5SW78G/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1442099405&sr=1-2&keywords=bullet+plugs+3.5mm" target="_blank">BW Gold Plated 3.5mm Bullet Plugs</a>.
+                                    <br>
+                                    <br>
+                                    <br> GPS is the next thing to concider when you are looking at this quadcopter build. There are two options when you are looking at the GPS unit. The Arduino, or a GPS unit that works with you flight controller. GPS is important becuase it can help fly the quad. You can put the quad into hover mode, and allow it to fly itself, or even program a flight path and let it do its thing. The GPS unit that we will be using is the <a href="http://www.amazon.com/Andoer-Precision-Multirotor-Quadcopter-Controller/dp/B00N3TE312/ref=pd_sim_21_1?ie=UTF8&refRID=1HN72A9AJ0BFSGEBJSK3&dpSrc=sims&preST=_AC_UL160_SR160%2C160_" target="_blank">Andoer Ublox NEO-6M</a>. It is also compatible with our flight controller.
+                                    <br>
+                                </p>
+                                <h3 class="build-info">This is just the beginning... For more info, see the video below. </h3>
+                                <br>
+                                <div class="delimitador">
+                                    <div class="contenedor">
+                                        <iframe id="buildyourown" src="https://www.youtube.com/embed/xCvV_CeK510" width="100%" height="800" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <br>
+                                    <hr>
+                                    <br>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- info Modal 4 -->
+        <div class="info-modal modal fade" id="infoModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
                 </div>
                 <div class="container">
-    <div class="page-header">
-    </div>
-    <ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="glyphicon glyphicon-flash"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Civil war</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1860's</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>During the civil war, balloons were filled with explosives to be sent to the other side. First unmanned aircraft assigned to a task..</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-wrench"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Operation Aphrodite</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1944</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Operation Aphrodite is started and is planning to use unmanned bomber fighter jets to detonate a target. Pilots would fly the planes to the assigned altitude, then bail with parachutes and allow the plane to crash into the target..</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-leaf"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Vietnam</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1960-1970</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Vietnam uses many Firebee drones to take night photos and make supply drops.</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-         <div class="timeline-badge info"><i class="glyphicon glyphicon-flag"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">US Navy UAV</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1985</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>US. Navy launches the first US. military UAV, the Pioneer.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-plane"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Predator Drone</h4>
-            </div>
-            <div class="timeline-body">
-               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2002</small></p>
-                <p>The first Predator drone is used in Afghanistan to survey and make a kill. First unmanned kill made by the U.S. CIA.</p>
-              <hr>
-              <div class="btn-group">
-                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                  <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge success"><i class="glyphicon glyphicon-globe"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Non military drones</h4>
-            </div>
-            <div class="timeline-body">
-             <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2013</small></p>
-              <p>Sales of non-military drones are estimated to reach sales of about $8.2 Billion in the next ten years. People start to catch onto the many uses of these unmanned aircraft. The Quadcopter is the most popular of them all because of its ability to be precisely maneuvered.</p>
-            </div>
-          </div>
-        </li>
-    </ul>
-</div>
-    </section>
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h1>Professional Interviews</h1>
+                                <hr>
+                                <h3 class="build-info">Learn about what the pros have to say regarding the use of quadcopters</h3>
 
+                                <p>What do the pros at DJI have to say? Find out in the video below. </p>
+
+                                <br>
+                                <hr>
+                                <br>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- info Modal 6 -->
+
+        <!--
+    <div class="info-modal modal fade" id="infoModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -395,123 +493,121 @@
                     </div>
                 </div>
             </div>
-             <section id="build" class="build-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Build Your Own Quadcopter: Guide</h1>
-                    <h3 class="build-info">Building your own quadcopter can be a great option if  you don't know what you want to do with it. You can always upgrade it in the future if you find another project that you want to try out. </h3> <br>
-                    <p class="text-muted">
-                        <br>
-                    <h4 class="build-info">Materials:</h4>
-                        <br>
-                        - Body: The body of the drone can be anything you want. It just needs to be lightweight and sturdy. Your frame needs to be able to mount either four or six motors, and their ESCs. Saying that, the frame needs to weigh the same on all sides. The one that we will be using and reccomending is the <a href="http://www.amazon.com/Hobbyking-X650F-Glass-Fiber-Quadcopter/dp/B00USR0AGO/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1442096059&sr=1-2&keywords=quadcopter+frame" target="_blank">Hobbyking X650F</a> because it has foldable arms, and a hightened landing gear that allows it to have a camera mounted under it. 
-                        <br>
-                        <br>
-                        <br>
-                        - ESC: The Electronic Speed Controller is an integrated circuit that allows each of the motors to be controlled indevidually by the flight controller. There needs to be one ESC for each motor that you have on your quadcopter, and they are all connected to the power distribution board. They can also be homemade. We will be unsing the <a href="http://www.amazon.com/Gartt-Brushless-Outrunner-Quadcopter-SKYWALKER/dp/B00JFR4YEC/ref=sr_1_9?ie=UTF8&qid=1442097459&sr=8-9&keywords=quadcopter+motors" target="_blank">Gartt 2212</a> because it comes with motors, and has simon-k firmware.
-                        <br>
-                        <br>
-                        <br>
-                        - Motors and Propellers: The motors and propellers work in tandem from the power of the ESC to lift the quad off of the ground. The motors that we will be using are the <a href="http://www.amazon.com/Gartt-Brushless-Outrunner-Quadcopter-SKYWALKER/dp/B00JFR4YEC/ref=sr_1_9?ie=UTF8&qid=1442097459&sr=8-9&keywords=quadcopter+motors" target="_blank">Gart 2212</a> because it comes with the ESCs, and they have more than enough power to fly with a camera attached to the frame. The propellers that we will be using are the <a href="http://www.amazon.com/Hooshion%C2%AE-Carbon-Propeller-Multirotor-Quadcopter/dp/B00ZQHZ5U2/ref=sr_1_10?ie=UTF8&qid=1442098409&sr=8-10&keywords=quadcopter+propellers+6+in" target="_blank">Hooshion Carbon Fiber 5in</a> propellers that come in a four pack. They also have a five-inch blade length that produce more air-power. 
-                        <br>
-                        <br>
-                        <br>
-                        - Flight controllers, PDBs, and gps/ radio controller boards: The flight controller is the middleman between the radio controller board and the ESCs. It controls the ESCs to control the motors. They can also control a camera or a gimbal, and the other outputs can be programmed to do whatever you want. The flight controller that we will be using is the <a href="http://www.amazon.com/Andoer-Flight-Controller-Multicopter-Quadcopter/dp/B00Q496EOM/ref=sr_1_8?ie=UTF8&qid=1442098903&sr=8-8&keywords=quadcopter+flight+controller" target="_blank">Andoer APM 2.6</a> because it is flashable, and it is compatible with a GPS unit.
-                        <br>
-                        <br>
-                        <br>
-                        Next up is the PDB or Power Distribution Board. This is a simple little peice of electronics that takes the power from the battery(ies) and distributes it to the flight controller and ESCs. The PDB that we will be using is the <a href="http://www.amazon.com/Quadcopter-Power-Distribution-Board-Mutlicopter/dp/B00QGCILK2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1442099164&sr=1-1&keywords=quadcopter+power+distribution+board" target="_blank">QPDB XT60</a> because it has simple and reliable circuits and pre-soldered bullet plugs. We will also need some bullet plugs to go on the ESCs with this. We wil just use these: <a href="http://www.amazon.com/Plated-Female-Bullet-Connector-Battery/dp/B00T5SW78G/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1442099405&sr=1-2&keywords=bullet+plugs+3.5mm" target="_blank">BW Gold Plated 3.5mm Bullet Plugs</a>.
-                        <br>
-                        <br>
-                        <br>
-                        GPS is the next thing to concider when you are looking at this quadcopter build. There are two options when you are looking at the GPS unit. The Arduino, or a GPS unit that works with you flight controller. GPS is important becuase it can help fly the quad. You can put the quad into hover mode, and allow it to fly itself, or even program a flight path and let it do its thing. The GPS unit that we will be using is the <a href="http://www.amazon.com/Andoer-Precision-Multirotor-Quadcopter-Controller/dp/B00N3TE312/ref=pd_sim_21_1?ie=UTF8&refRID=1HN72A9AJ0BFSGEBJSK3&dpSrc=sims&preST=_AC_UL160_SR160%2C160_" target="_blank">Andoer Ublox NEO-6M</a>. It is also compatible with our flight controller. 
-                        <br>
-                        </p>
-                    <h3 class="build-info">This is just the beginning... For more info, see the video below. </h3> <br><div class="delimitador">
-                    <div class="contenedor">
-                    <iframe id = "buildyourown" src="https://www.youtube.com/embed/xCvV_CeK510" frameborder="0" allowfullscreen></iframe>
-                    </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/info/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this info sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        -->
+
+
+        <div class="info-modal modal fade" id="infoModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h1 class="section-head">Technology and Engineering</h2>
+                                <h5 class="text-muted">Our school offers a wide range of technology and engineering courses for students to take. We have a strong belief in the STEM way of learning. In the arts department, we have many classes that can be taken to learn about design. Some of the engineering classes and design classes that can be taken also offer college credits from concurrent enrollment from Arapahoe Commnuity College. These courses are indicated with a star. </h5>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="course-list col-md-4 col-sm-12">
+                        <h3 class="course-head">Grade 9</h3> <br>
+                            <ul class="courses-list list-unstyled">
+                                <li>Intro to Engineering</li>
+                                <li>Engineering I</li>
+                                <li>Intro to Computer Science</li>
+                                <li>Intro to Programming</li>
+                            </ul>
+                    </div>
+                    
+                    
+                                <div class="course-list col-md-4 col-sm-12">
+                                    <h3 class="course-head">Grade 10</h3> <br>
+                            <ul class="courses-list list-unstyled">
+                                <li>Intro to Engineering</li>
+                                <li>Engineering I</li>
+                                <li>Engineering II - Robotics</li>
+                                <li>Advanced Design - CAD 255</li>
+                                <li>Intro to Computer Science</li>
+                                <li>Intro to Programming</li>
+                                <li>CSC 160</li>
+                                <li>CSC 161</li>
+                            </ul>
+                                </div>
+                                
+                                <div class="course-list col-md-4 col-sm-12">
+                                    <h3 class="course-head">Grade 11 and 12</h3> <br>
+                            <ul class="courses-list list-unstyled">
+                                <li>Intro to Engineering</li>
+                                <li>Engineering I</li>
+                                <li>Engineering II - Robotics</li>
+                                <li>Engineering III - Individual</li>
+                                <li>Engineering IV - Team</li>
+                                <li>Advanced Design - CAD 255</li>
+                                <li>Intro to Programming</li>
+                                <li>CSC 160</li>
+                                <li>CSC 161</li>
+                                <li>AP Computer Science</li>
+                            </ul>
+                                </div>
+                    </div>
+                    
+            </div>
+                            <p class= "text-muted">We have a variety of Technology and Engineering classes at LHS, ranging from Java to Robotics.</p>
+                
+                <div class="container">
+                    <div class="row">
+                            <h1 class="section-head">Digital Design</h2>
+                            
+                <div class="course-list col-md-6 col-sm-12">
+                    <h3 class="course-head">All Grades in Digital Design</h3>
+                    
+                    <ul class="courses-list list-unstyled">
+                        <li>Intro to Multimedia</li>
+                        <li>Graphic Design I - Illustrator and Design Basics</li>
+                        <li>Graphic Design II - Photoshop</li>
+                        <li>Web Design I</li>
+                        <li>Web Design</li>
+                        <li>Adobe InDesign</li>
+                        <li>Motion Graphic Design I</li>
+                        <li>Intro to Mobile Apps</li>
+                        <li>Digital Video Editing I</li>
+                        <li>Advanced Video Production</li>
+                        <li>DCTV Academy - Legend HS Announcements</li>
+                        <li>Computer Animation I - Maya I</li>
+                        <li>Computer Animation II - Maya II</li>
+                        <li>Project Managemnt</li>
+                    </ul>
                     
                 </div>
-            </div>
-        </div>
-    </section>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h1 class = "section-head">Technology and Engineering.</h2>
-                            <img class="img-responsive img-centered" src="img/Tech%20Courses.JPG" alt="">
-                            <p class= "text-muted">We have a variety of Technology and Engineering classes at LHS, ranging from Java to Robotics.</p>
-                            <h1 class="section-head">Digital Design.</h2>
-                            <img class="img-responsive2 img-centered" src="img/Digital%20Design.JPG">
+                
                             <p class = "text-muted">In Digital Design, students learn skills that can help them later in life with an art degree, a business, etc. The possibilities are endless.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -526,12 +622,12 @@
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+            
+    <!-- OWL JS PLUGIN -->
+    <script src="/owl-carousel/owl-custom.js"></script>
+    <script src="/owl-carousel/owl.carousel.js"></script>
 
 </body>
 
