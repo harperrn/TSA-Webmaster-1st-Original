@@ -133,6 +133,8 @@ section h3.section-subheading-dark {
     font-size: 21px;
     font-style: bold;
     font-weight: 400;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .service-heading {
@@ -299,7 +301,8 @@ section {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 415px;
+    min-width: 415px;
 }
 
 #info .info-item .info-link .info-hover {
@@ -340,7 +343,8 @@ section {
 #info .info-item .info-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    max-width: 415px;
+    min-width: 415px;
     text-align: center;
     background-color: #fff;
 }
