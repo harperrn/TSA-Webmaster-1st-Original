@@ -4,12 +4,13 @@
 /* Main Body and Background */
 
 body {
+    width: auto;
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    webkit-tap-highlight-color: #fed136;
 }
 
 .bg-light-blue {
+    background-color: #028090;
     background-color: #028090;
 }
 
@@ -325,6 +326,7 @@ fieldset[disabled] .btn-primary.active {
 
 section {
     padding: 100px 0;
+    width: 100%;
 }
 
 @media(min-width:768px) {
