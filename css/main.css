@@ -74,6 +74,18 @@ p {
     border-color: #4c5c68;
 }
 
+.divider-hr {
+    height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+    border-width: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 10%;
+    border-color: #c5c3c6;
+}
+
 p.large {
     font-size: 16px;
 }
@@ -91,18 +103,27 @@ h6 {
 
 .course-head {
     color: #4c5c68 ;
-    font-size: ;
+    font-size: 30px;
+    font-weight: 400;
     position: center;
     text-align: center;
-    font-family: ;
-    
+    font-family: 'Titillium Web', 'Monsterrat' sans-serif ;
 }
 
-section h2.section-heading {
+h2.about-names {
+    color: #4c5c68 ;
+    font-size: 30px;
+    font-weight: 400;
+    position: left;
+    text-align: center;
+    font-family: 'Titillium Web', 'Monsterrat' sans-serif ;
+}
+
+h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 60px;
-    color: #FFF;
+    font-size: 70px;
+    color: #000;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
 }
@@ -137,6 +158,18 @@ section h3.section-subheading-dark {
     padding-left: 30px;
 }
 
+h3.section-subheading-muted {
+    margin-bottom: 75px;
+    text-transform: none;
+    color: #777;
+    font-family: 'Raleway','Podkova',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 400;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -160,6 +193,22 @@ section h3.section-subheading-dark {
     height: 120px;
 }
 
+.circle-image{
+    width: 200px;
+    height: 200px;
+    position: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    align-content: center;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
 
 
 
