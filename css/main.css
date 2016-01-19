@@ -141,7 +141,7 @@ section h3.section-subheading {
 section h2.section-heading-dark {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 60px;
+    font-size: 55px;
     color: #46494C;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
@@ -352,7 +352,6 @@ section {
     position: relative;
     margin: 0 auto;
     max-width: 415px;
-    min-width: 415px;
 }
 
 #info .info-item .info-link .info-hover {
@@ -394,7 +393,6 @@ section {
     margin: 0 auto;
     padding: 25px;
     max-width: 415px;
-    min-width: 415px;
     text-align: center;
     background-color: #fff;
 }
@@ -438,7 +436,7 @@ section {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 415px;
 }
 
 #info-chapter .info-item .info-link .info-hover {
@@ -479,7 +477,7 @@ section {
 #info-chapter .info-item .info-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    max-width: 415px;
     text-align: center;
     background-color: #fff;
 }
