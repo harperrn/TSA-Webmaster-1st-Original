@@ -207,7 +207,7 @@ img {
     display: inline;
     margin: 0 auto;
     height: 100%;
-    width: auto;
+    height: 100%;
 }
 
 
@@ -607,7 +607,7 @@ footer span.copyright {
 
 ::selection {
     text-shadow: none;
-    background: #26a65b;
+    background: #DCDCDD;
 }
 
 img::selection {
