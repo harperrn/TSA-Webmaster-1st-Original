@@ -38,6 +38,8 @@ body {
 
 .text-muted {
     color: #777;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .text-muted-modal {
@@ -287,6 +289,57 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.btn-resources {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    border-radius: 0px;
+    border-color: #1985A1;
+    color: #1985A1;
+    background-color: #c5c3c6;
+    position: center;
+}
+
+.btn-resources:hover,
+.btn-resources:focus,
+.btn-resources:active,
+.btn-resources.active,
+.open .dropdown-toggle.btn-resources {
+    border-color: #4C5C68;
+    color: #fff;
+    background-color: #4C5C68;
+}
+
+.btn-resources:active,
+.btn-resources.active,
+.open .dropdown-toggle.btn-resources {
+    background-image: none;
+}
+
+.btn-resources.disabled,
+.btn-resources[disabled],
+fieldset[disabled] .btn-resources,
+.btn-resources.disabled:hover,
+.btn-resources[disabled]:hover,
+fieldset[disabled] .btn-resources:hover,
+.btn-resources.disabled:focus,
+.btn-resources[disabled]:focus,
+fieldset[disabled] .btn-resources:focus,
+.btn-resources.disabled:active,
+.btn-resources[disabled]:active,
+fieldset[disabled] .btn-resources:active,
+.btn-resources.disabled.active,
+.btn-resources[disabled].active,
+fieldset[disabled] .btn-resources.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-resources .badge {
     color: #fed136;
     background-color: #fff;
 }
