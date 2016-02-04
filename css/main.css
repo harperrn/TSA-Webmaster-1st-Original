@@ -128,7 +128,6 @@ h2.section-heading {
     color: #000;
     font-weight: 400;
     font-family: 'Titillium Web', 'Monsterrat' sans-serif;
-    text-align: left;
 }
 
 section h3.section-subheading {
@@ -882,4 +881,11 @@ ul .courses-list {
             right: auto;
         }
 }
+.buildyourowntext {
+    color: #777;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align:left;
+}
+    
 
