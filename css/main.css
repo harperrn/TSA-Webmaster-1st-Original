@@ -678,11 +678,12 @@ img::-moz-selection {
     
 }
 
-ul .courses-list {
+ul .course-list {
     list-style-type: none;
     position: center;
     text-align: center;
-    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 2px;
     margin: 0px;
     font-size: 60px;
